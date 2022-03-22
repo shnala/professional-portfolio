@@ -3,9 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <section className="footer-wrapper row">
-            <div className="aside-wrapper col-4 col-lg-2">
-                <h2 id="contactus">Contact</h2>
-            </div>
+
 
             <ul className="col-12 col-lg-10">
                 <a href="https://github.com/shnala" target="_blank">
@@ -39,8 +37,8 @@ function Footer() {
                         </svg>
                     </li>
                 </a>
-
             </ul>
+            <h6>@Shawn Analla 2022. All rights reserved.</h6>
         </section>
 
     )
