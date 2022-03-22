@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Footer from './components/Footer';
 import Home from './pages/Home';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route index element = {<Home />}/>
             </Routes>
+            <Footer />
         </Router>
         </main>
     )
