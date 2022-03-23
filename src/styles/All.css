@@ -2,13 +2,3 @@
     background-color: black;
     color: white;
 }
-
-.card-container {
-    margin: 0 auto;
-}
-
-.card {
-    width: 45vw; 
-    height: 30vw;
-    margin: 10px;
-}
