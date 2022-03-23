@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 function Footer() {
     return (
         <section className="footer-wrapper">
-            <ul className="col-12 col-lg-10">
+            <ul className="footer-list">
                 <a href="https://github.com/shnala" target="_blank">
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="media-icon bi bi-github" viewBox="0 0 16 16">
