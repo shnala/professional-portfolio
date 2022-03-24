@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Home.css'
 import bcsadventures from '../assets/images/bcs-adventures-logo.png'
 
@@ -11,43 +12,46 @@ function Home() {
 
             <div className='card-container row'>
                 <div className="card">
-                    {/* <img className="card-img-top" src={bcsadventures} alt="Card image cap" /> */}
-                    <div className="card-body">
-                        <p className="card-text">About Card</p>
-                        <div className='card-description-layer'>
-                        <p className='card-description'>Learn more about who I am, what I do, and my aspirations.</p>
-                        </div>
+                    <div className="card-body about-body">
+                        <p className="card-title">About</p>
+                        <Link to="/about">
+                            <div className='card-description-layer'>
+                                <p className='card-description'>Learn more about me and my aspirations.</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
-
                 <div className="card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
-                    <div className="card-body">
-                        <p className="card-text">Portfolio Card</p>
+                    <div className="card-body portfolio-body">
+                        <p className="card-title">Portfolio</p>
+                        <Link to="/portfolio">
                         <div className='card-description-layer'>
-                        <p className='card-description'>View some of my favorite projects. </p>
+                            <p className='card-description'>View some of my favorite projects. </p>
                         </div>
+                        </Link>
                     </div>
                 </div>
             </div>
             <div className='card-container row'>
                 <div className="card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
-                    <div className="card-body">
-                        <p className="card-text">Contact Card</p>
+                    <div className="card-body contact-body">
+                        <p className="card-title">Contact</p>
+                        <Link to="contact">
                         <div className='card-description-layer'>
-                        <p className='card-description'>Find details about how to get in contact with me.</p>
+                            <p className='card-description'>Find details on how to get in contact with me.</p>
                         </div>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="card">
-                    <img className="card-img-top" src="" alt="Card image cap" />
-                    <div className="card-body">
-                        <p className="card-text">Personal Card</p>
+                    <div className="card-body personal-body">
+                        <p className="card-title">Personal</p>
+                        <Link to="personal">
                         <div className='card-description-layer'>
-                        <p className='card-description'>Some cool stuff of mine including photography, playlists, and screenshots from games I love.</p>
+                            <p className='card-description'>Casual stuff like photography, playlists, and screenshots from games I love.</p>
                         </div>
+                        </Link>
                     </div>
                 </div>
             </div>
