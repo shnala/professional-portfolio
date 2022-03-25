@@ -1,0 +1,30 @@
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a, li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 20px 40px 4px 10px;
+    margin: 5px;
+    float: left;
+    width: auto;
+}
+
+.nav-links a:hover {
+    background-color:aliceblue;
+    color: black;
+}

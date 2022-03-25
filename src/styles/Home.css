@@ -20,12 +20,12 @@ h5 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.card-container {
+.home-card-container {
     margin: 0 auto;
     justify-content: center;
 }
 
-.card {
+.home-card {
     background-color: black;
     width: 45vw; 
     height: 30vw;
@@ -33,7 +33,7 @@ h5 {
 }
 
 /* Placeholder class until backgrounds exist for each card */
-.card-body {
+.home-card-body {
     position: relative;
     /* background-image: url("../assets/images/bcs-adventures-logo.png");
     background-size: cover; */
@@ -45,7 +45,7 @@ h5 {
     background-size: cover; */
 }
 
-.card-title {
+.home-card-title {
     position: absolute;
     bottom: 44%;
     left: 40%;
@@ -53,7 +53,7 @@ h5 {
     font-size: 3vw;
 }
 
-.card-description-layer {
+.home-card-description-layer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ h5 {
     text-align: center;
 } */
 
-.card-body:hover .card-description-layer {
+.home-card-body:hover .home-card-description-layer {
     visibility: visible;
     opacity: 0.8;
     border: 1px solid var(--cloudblue);
