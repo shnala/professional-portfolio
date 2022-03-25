@@ -12,15 +12,126 @@
     font-size: 4vw;
 }
 
+.portfolio-card-container {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 .portfolio-card {
+    position: relative;
     background-color: black;
-    width: 30vw; 
-    height: 30vw;
+    width: 31vw; 
+    height: 21vw;
     margin: 10px;
 }
 
-/* .portfolio-card-body-bcsa {
+.portfolio-card button {
+    position: absolute;
+    bottom: 38%;
+    left: 37%;
+    z-index: 2;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    visibility: hidden;
+}
+
+.portfolio-card button:hover {
+    background-color:aliceblue;
+    color: black;
+}
+
+.portfolio-card:hover button {
+    visibility:visible;
+}
+
+.portfolio-card:hover .portfolio-card-button-layer {
+    visibility:visible;
+    opacity: 0.6;
+}
+
+.portfolio-card-button-layer {
+    z-index: 1;
+    /* background-color: white; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    visibility: hidden;
+}
+
+.portfolio-card-body-bcsa {
+    position: relative;
     background-image: url('../assets/images/bcs-adventures-logo.png');
-    background-size: cover;
-    width: 100%;
+    background-size: 30vw;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.portfolio-card-body-ponder {
+    position: relative;
+    background-image: url('../assets/images/ponder.png');
+    background-size: 30vw;
+    height: 100%;
+}
+
+.portfolio-card-body-acnh {
+    position: relative;
+    background-image: url('../assets/images/acnh-villager-database.png');
+    background-size:30vw;
+    height: 100%;
+}
+
+.portfolio-card-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.portfolio-toggle {
+    display: flex;
+    margin: 30px;
+}
+
+.portfolio-description {
+    flex: 1.5;
+}
+
+.portfolio-description a:link,
+.portfolio-description a:visited {
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 20px 40px 4px 10px;
+    margin: 5px;
+    float: left;
+    width: auto;
+    text-decoration: none;
+}
+
+.portfolio-description a:hover {
+    background-color:aliceblue;
+    color: black;
+}
+
+/* Slightly offsets thumbnails from right margin, do for each card */
+/* .portfolio-bcsa-thumbnail {
+    flex: 1;
 } */
+
+.portfolio-thumbnail {
+    margin: 10px;
+    height: 13vw;
+    transition: transform 0.25s ease;
+}
+
+.portfolio-thumbnail:hover {
+    transform:translate(-25% -25%);
+    transform:scale(3);
+}
