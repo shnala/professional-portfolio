@@ -1,3 +1,7 @@
+.nav {
+    margin: 20px 0px;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-evenly;

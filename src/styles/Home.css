@@ -3,15 +3,19 @@
 }
 
 .big-name {
-    padding-top: 175px;
+    padding-top: 200px;
+    /* background-image: url("../assets/images/san_fran.jpg");
+    background-size: cover; */
+    margin-bottom: 30px;
 }
 
 .big-name > * {
+    background-color: transparent;
     display: inline;
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 80px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -29,26 +33,44 @@ h5 {
     background-color: black;
     width: 45vw; 
     height: 30vw;
-    margin: 10px;
+    margin: 20px 5px;
 }
 
 /* Placeholder class until backgrounds exist for each card */
-.home-card-body {
+/* .home-card-body {
     position: relative;
-    /* background-image: url("../assets/images/bcs-adventures-logo.png");
-    background-size: cover; */
-}
+    background-image: url("../assets/images/mushrooms.jpg");
+    background-size: cover;
+} */
 
 .portfolio-body {
     position: relative;
-    /* background-image: url("../assets/images/acnh-villager-database.png");
-    background-size: cover; */
+    background-image: url("../assets/images/clouds1.jpg");
+    background-size: cover;
+}
+
+.about-body {
+    position: relative;
+    background-image: url("../assets/images/clouds2.jpg");
+    background-size: cover;
+}
+
+.contact-body {
+    position: relative;
+    background-image: url("../assets/images/clouds3.jpg");
+    background-size: cover;
+}
+
+.personal-body {
+    position: relative;
+    background-image: url("../assets/images/clouds4.jpg");
+    background-size: cover;
 }
 
 .home-card-title {
     position: absolute;
-    bottom: 44%;
-    left: 40%;
+    bottom: 42%;
+    left: 37%;
     background-color: transparent;
     font-size: 3vw;
 }

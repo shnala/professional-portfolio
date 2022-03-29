@@ -32,6 +32,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            
             <div className='card-container home-card-container row'>
                 <div className="card home-card">
                     <div className="card-body home-card-body contact-body">

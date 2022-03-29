@@ -1,6 +1,6 @@
 .portfolio-banner {
     position: relative;
-    background-image: url('../assets/images/wheatfield.jpg');
+    background-image: url('../assets/images/wheatfield_van_gogh.jpg');
     height: 300px
 }
 
@@ -8,7 +8,7 @@
     background-color: transparent;
     position: absolute;
     bottom: 40%;
-    left: 41%;
+    left: 36%;
     font-size: 4vw;
 }
 
@@ -124,6 +124,11 @@
 /* .portfolio-bcsa-thumbnail {
     flex: 1;
 } */
+
+.portfolio-accolades {
+    margin-left: 20px;
+    color: purple;
+}
 
 .portfolio-thumbnail {
     margin: 10px;
