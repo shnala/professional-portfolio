@@ -45,25 +45,25 @@ h5 {
 
 .portfolio-body {
     position: relative;
-    background-image: url("../assets/images/clouds1.jpg");
+    background-image: url("../assets/images/waterfall.jpg");
     background-size: cover;
 }
 
 .about-body {
     position: relative;
-    background-image: url("../assets/images/clouds2.jpg");
+    background-image: url("../assets/images/20200819_161558\ 1.jpg");
     background-size: cover;
 }
 
 .contact-body {
     position: relative;
-    background-image: url("../assets/images/clouds3.jpg");
+    background-image: url("../assets/images/roses.jpg");
     background-size: cover;
 }
 
 .personal-body {
     position: relative;
-    background-image: url("../assets/images/clouds4.jpg");
+    background-image: url("../assets/images/park_winter.jpg");
     background-size: cover;
 }
 

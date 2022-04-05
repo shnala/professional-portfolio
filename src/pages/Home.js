@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../styles/Home.css'
-import bcsadventures from '../assets/images/bcs-adventures-logo.png'
 
 function Home() {
     return (

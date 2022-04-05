@@ -1,6 +1,6 @@
 .portfolio-banner {
     position: relative;
-    background-image: url('../assets/images/wheatfield_van_gogh.jpg');
+    background-image: url('../assets/images/deception_pass.jpg');
     height: 300px
 }
 
@@ -30,7 +30,7 @@
 .portfolio-card button {
     position: absolute;
     bottom: 38%;
-    left: 37%;
+    left: 40%;
     z-index: 2;
     padding: 20px;
     background-color: transparent;
