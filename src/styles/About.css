@@ -1,0 +1,19 @@
+.about-banner {
+    height:300px;
+    background-image: url("../assets/images/20200819_161558\ 1.jpg");
+    background-size:cover;
+}
+
+.about-picture {
+    width:25%;
+    margin:50px;
+}
+
+.about-wrapper {
+    display: flexbox;
+}
+
+.about-wrapper div {
+    display: inline-flex;
+    width: 50%;
+}

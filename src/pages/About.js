@@ -1,15 +1,16 @@
 import React from "react";
+import '../styles/About.css';
 import Nav from "../components/Nav";
+import selfie from "../assets/images/selfie.jpg";
 
 function About() {
     return (
         <section>
             <Nav />
-            <div className="banner">
-                <h3>Banner Here</h3>
+            <div className="about-banner">
             </div>
-            <h6>Pic goes here</h6>
-            <div>
+            <div className="about-wrapper">
+                <img className="about-picture" src={selfie} />
 
                 <div>
                     <p>Hey there! My name is Shawn Analla. I'm a recently certified junior fullstack developer that just started coding a few months ago. I'm showcasing some of my early work here
@@ -20,6 +21,7 @@ function About() {
                 </div>
 
             </div>
+
 
         </section>
     )
