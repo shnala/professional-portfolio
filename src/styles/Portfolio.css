@@ -1,6 +1,7 @@
 .portfolio-banner {
     position: relative;
-    background-image: url('../assets/images/deception_pass.jpg');
+    background-image: url('../assets/images/clouds4.jpg');
+    background-size: cover;
     height: 300px
 }
 

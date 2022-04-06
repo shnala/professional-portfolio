@@ -11,7 +11,7 @@ function Contact() {
                 <h1>Contact</h1>
             </div>
 
-            <div>
+            <div className="contact-description">
                 <p>For inquiries, offers, or otherwise,
                     please email me at @<a href="mailto:shawnanalla@gmail.com">shawnanalla@gmail.com</a></p>
                 <p>My social medias are also linked

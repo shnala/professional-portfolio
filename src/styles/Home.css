@@ -3,7 +3,7 @@
 }
 
 .big-name {
-    padding-top: 200px;
+    padding-top: 100px;
     /* background-image: url("../assets/images/san_fran.jpg");
     background-size: cover; */
     margin-bottom: 30px;
@@ -98,4 +98,28 @@ h5 {
     visibility: visible;
     opacity: 0.8;
     border: 1px solid var(--cloudblue);
+}
+
+
+@media (max-width:760px) {
+    .big-name > * { 
+        display: block;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    
+    .home-card-container {
+        text-align: center;
+    }
+
+    .home-card {
+        width: 80%;
+        height: 50vw;
+        margin: 20px auto;
+    }
+    
+    .row {
+        display: block;
+    }
+
 }
